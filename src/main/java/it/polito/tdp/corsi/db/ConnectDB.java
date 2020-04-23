@@ -8,7 +8,7 @@ import java.sql.SQLException;
 public class ConnectDB  {
 	
 	public static Connection getConnection() throws SQLException {
-		String jdbcURL = "jdbc:mysql://localhost/iscritticorsi?user=root&password=rootroot" ;
+		String jdbcURL = "jdbc:mysql://localhost/iscritticorsi?user=root&password=rootDa" ;
 		return DriverManager.getConnection(jdbcURL) ;	
 	}
 }
